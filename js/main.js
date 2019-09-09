@@ -11,6 +11,8 @@ loadData()
     preloaderEl.classList.remove('visible');
   });
 
+window.addEventListener('beforeunload', (e)=>{window.scroll(0,0);})
+
 
 document.addEventListener('DOMContentLoaded', function () {
   let playBtn = document.querySelector('.play-icon')
