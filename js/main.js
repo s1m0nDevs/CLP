@@ -11,7 +11,7 @@
 //     preloaderEl.classList.remove('visible');
 //   });
 
-window.addEventListener('beforeunload', (e)=>{window.scroll(0,0);})
+window.addEventListener('load', (e)=>{window.scroll(0,0);})
 
 
 document.addEventListener('DOMContentLoaded', function () {
